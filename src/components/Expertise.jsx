@@ -4,7 +4,7 @@ import { FlipWords } from "./ui/flip-words";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Title from "./Title";
 
-const Expertise = ({id}) => {
+const Expertise = () => {
   const dummyContent = [
     {
       description: (
@@ -57,7 +57,7 @@ const Expertise = ({id}) => {
 
 
   return (
-    <div className="w-full px-5 xl:px-40 lg:px-10 mt-20" id={id}>
+    <div className="w-full px-5 xl:px-40 lg:px-10 mt-20" id="expertise">
 
       <Title title="My Expertise" />
 

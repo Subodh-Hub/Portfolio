@@ -22,7 +22,7 @@ const Hero = () => {
   const flipWords = ["slow-loading", "outdated", "un-optimized"];
   return (
     <>
-      <div className="mt-30 px-5 xl:px-40 lg:px-10 shadow-md rounded-b-4xl">
+      <div className="mt-30 px-5 xl:px-40 lg:px-10 shadow-md rounded-b-4xl" id="home">
         <div className="flex flex-col gap-15 items-center">
           <div className="w-50 h-50 rounded-full relative bg-gradient-to-r from-[#678D58] to-emerald-900">
             <img
